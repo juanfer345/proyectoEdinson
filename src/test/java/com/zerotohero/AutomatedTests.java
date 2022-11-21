@@ -13,7 +13,6 @@ public class AutomatedTests {
     @Test
     public void dummyTest() {
         ChromeDriver driver = new ChromeDriver();
-
         driver.get("https://google.com");
         Assert.assertTrue(true);
     }
