@@ -1,12 +1,24 @@
-# Proyecto Edinson
+# Edinson Project! 😎
 
-Un proyecto de práctica, muy bacano 😎.
+The coolest project in the entire universe 🌌. Focused on improving the automation testing skills of this humble engineer 🥺.
 
-## Descripción
-<p>Creado utilizando visual studio code, con el gestor de dependencias maven, el arquetipo <b>quickstart</b> y utilizando <b>java 18</b> porque hay que estar bien actualizado 😛. <br>
+## General Description
+Created using maven as a project management and comprehension tool, with the <b>quickstart</b> archetype and <b>java 18</b>.
 
-Hasta el momento se han agregado las dependencias:</p>
+## Dependencies
+Currently using the following dependencies:
 <ul>
-<li>Selenium: Como herramienta principal para realizar las pruebas automatizadas</li>
-<li>testng: Para realizar los assertions en las pruebas automatizadas</li>
+<li><b>Selenium WebDriver</b>: As the main tool for creating the automated tests for web applications.</li>
+<br>
+<li><b>JUnit</b>: Used to support general test creation, management and reporting.</li>
+<br>
+<li><b>Assertj</b>: Utilized to create better assertions than those provided by JUnit.</li>
 </ul>
+
+## Automation Test Strategy
+
+<ol>
+<li>Identify what to test.</li>
+<li>Automate it.</li>
+</ol>
+<b>Note</b>: Listen carefully and interiorize, each and every single one of the Edison's Sensei lessons 👨‍🏫. Applying the gained knowledge thorougly on the proposed challenges in order to become a better automation tester 🤑.
