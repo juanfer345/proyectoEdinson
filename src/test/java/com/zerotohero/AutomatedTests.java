@@ -1,8 +1,9 @@
 package com.zerotohero;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 public class AutomatedTests {
 
@@ -14,6 +15,6 @@ public class AutomatedTests {
     public void dummyTest() {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://google.com");
-        Assert.assertTrue(true);
+        assertTrue(true);
     }
 }
